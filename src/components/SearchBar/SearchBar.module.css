@@ -1,0 +1,22 @@
+.pistol{
+    width: 3rem;
+    transition: 220ms;
+}
+.pistol:hover{
+    scale: 1.1;
+}
+.buttonPistol{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input{
+    background-color: rgba(122, 212, 97, 0.703);
+    border: solid rgb(77, 206, 77) 2px;
+    border-radius: 8px;
+    color: rgb(18, 45, 18);
+}
