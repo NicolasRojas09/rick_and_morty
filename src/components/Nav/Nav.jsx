@@ -11,15 +11,16 @@ const Nav = ({ onSearch }) => {
                 <a className={style.logoEspacio}>
                     <NavLink to={'/home'}><img src={logo} alt="logo" className={style.logo}/></NavLink>
                 </a>
-                <button className={style.aboutBtn}>
-                    <NavLink className={style.about} to={'/about'}>about</NavLink>
-                </button>
             </div>
             <div className={style.searchAndFavs}>
-                <button>
-                    <NavLink to={'/favorites'}>Favorites</NavLink>
+                <button className={style.aboutFavBtns}>
+                    <NavLink className={style.aboutFav} to={'/about'}>about</NavLink>
                 </button>
-                    <SearchBar onSearch={onSearch} />
+                <button className={style.aboutFavBtns}>
+                    <NavLink className={style.aboutFav} to={'/favorites'}>Favorites</NavLink>
+                </button>
+                <hr/>    
+                <SearchBar onSearch={onSearch} />
             </div>
         </div>
     )

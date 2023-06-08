@@ -7,6 +7,9 @@
 .searchAndFavs{
     display: flex;
     flex-direction: row;
+    gap: 3%;
+    align-items: center;
+    padding-right: 2%;
 }
 .logoAndAbout{
     display: flex;
@@ -21,14 +24,16 @@
 .logo{
     width: 100%;
 }
-.aboutBtn{
+.aboutFavBtns{
     background-color: rgba(154, 255, 66, 0.055);
-    padding: 2px 8px;
     border: solid rgb(152, 236, 69) 1px;
     border-radius: 100px;
-    margin-top: 2%;
 }
-.about{
+.aboutFav{
     text-decoration: none;
     color: rgb(121, 238, 63);
+}
+hr{
+    border: solid rgb(121, 238, 63) 1px;
+    height: 50%;
 }
