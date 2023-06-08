@@ -64,11 +64,11 @@ h2{
              0px 4px 10px 7px rgba(0,0,0,0.3);
 }
 .boton{
-    border: solid rgba(96, 170, 59, 0.667) 2px;
+    border: solid rgb(132, 182, 81) 2px;
     border-radius: 100px;
     scale: 70%;
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(95, 161, 53);
+    background-color: rgb(173, 230, 117);
+    color: rgb(54, 115, 37);
     transition: 110ms;
 }
 .boton:hover{
@@ -76,4 +76,16 @@ h2{
     border: solid rgba(74, 133, 44, 0.804) 2px;
     color: rgb(72, 109, 42);
     scale: 80%;
+}
+.buttonFav{
+    background-color: rgb(173, 230, 117);
+    border: solid rgb(132, 182, 81);
+    border-radius: 100px;
+    scale: 85%;
+    padding: 1px;
+    transition: 220ms;
+}
+.buttonFav:hover{
+    background-color: rgb(101, 179, 68);
+    scale: 90%;
 }
